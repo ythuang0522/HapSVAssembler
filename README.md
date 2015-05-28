@@ -1,5 +1,5 @@
 # Required thirdparty package
-The [bamtools] are required to manually download while other programs are included.
+The [bamtools][1] are required to manually download while other programs are included.
 
 # Compile
 Type make in the src direcotry
@@ -21,3 +21,5 @@ In the package folder, type ./Run_HapSV, and you will see the list of parameters
 For instance, given a contig file named "contig.fa" and fastq files of paried-end reads "R1.fq" and "R2.fq", simply type
 
     ./Run_HapSV -f contig.fa -1 R1.fq -2 R2.fq
+
+[1]: https://github.com/pezmaster31/bamtools
