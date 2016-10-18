@@ -40,16 +40,18 @@ The main output file similar to the standard vcf format yet including block boun
     contig1001	SNP	6380	-	G	A
 
 ## haplotype_variation.log
-This output file stores the simplifed representation of paternal/maternal haplotypes sequences over SNPs.
+This output file stores the simplifed representation of paternal/maternal haplotypes sequences over SNPs only. There are two lines storing the paternal and maternal haplotype sequences, where the haplotype block boundary is represented using vertical line. e.g., three haplotype blocks composed of 22 SNPs.
 
-
-## snp_matrix.log
-The input SNP/SV matrix used in the constrained MEC model.
+    GTG|TCTCGTAATCACGATAGT|G
+    GTG|AGATAACGCGGTGATAGT|A
 
 ## snp_site.log
 The loci of detected SNPs.
 
 ## detected_sv.log
 The loci of detected SVs.
+
+## snp_matrix.log
+The input SNP/SV matrix used in the constrained MEC model.
 
 [1]: https://github.com/pezmaster31/bamtools
